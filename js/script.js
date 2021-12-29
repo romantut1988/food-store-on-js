@@ -7,5 +7,11 @@ window.addEventListener('DOMContentLoaded', () => {
         tabsContent.forEach(item => {
             item.style.display = 'none';
         });
+
+        tabs.forEach(tab => {
+            item.classList.remove('tabheader__item_active');
+        });
     }
+
+
 });
