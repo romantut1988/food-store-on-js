@@ -159,8 +159,8 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
         render() {
-               const element = document.createElement('div');
-               element.innerHTML = `
+            const element = document.createElement('div');
+            element.innerHTML = `
                <div class="menu__item">
                 <img src=${this.src} alt=${this.alt}>
                 <h3 class="menu__item-subtitle">${this.title}</h3>
@@ -172,7 +172,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
                `;
-               this.parent.append(element);
+            this.parent.append(element);
         }
     }
 
